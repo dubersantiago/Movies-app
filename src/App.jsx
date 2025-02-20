@@ -1,14 +1,9 @@
-import { nowMovies } from "./services/nowMovies"
+import { NowMoivespage } from "./pages/NowMoives"
+
 
 export const App = () => {
 
-  
-
-  console.log(nowMovies());
-  
-
-
   return (
-    <div>Movies App</div>
+    <NowMoivespage/>
   )
 }
