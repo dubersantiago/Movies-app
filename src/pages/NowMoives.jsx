@@ -1,3 +1,4 @@
+import { Navbar } from "../components/Navbar";
 import { useNowMovies } from "../hooks/useNowMovies";
 import { MovieData } from "./MovieData";
 import './NowMovies.css';
@@ -16,6 +17,7 @@ export const NowMoivespage = () => {
 
     return(
     <>
+        <Navbar/>
         <h1>Peliculas en cartelera</h1>
         <div className="cards">
             {data.results.map((movie)=>{
